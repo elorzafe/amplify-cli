@@ -13,6 +13,7 @@ export const appsyncTableSuffix = '@model(appsync)';
 export const enum ServiceName {
   LambdaFunction = 'Lambda',
   LambdaLayer = 'LambdaLayer',
+  ElasticContainer = 'ElasticContainer'
 }
 
 export const enum CronExpressionsMode {
